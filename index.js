@@ -38,7 +38,7 @@ const data = [
 ]
 
 // selectors
-
+const urlRedirect = "https://wl-ui-2021.github.io/Dinesh-Product1/"
 const col = document.querySelector('#services')
 const profile = document.querySelector('#p1')
 const pricing = document.querySelector('#p2')
@@ -130,7 +130,7 @@ xhr.onload = function(){
               <h3>${pData.price}</h3>
               <p>per month</p>
               <p>24/7 support</p>
-              <a href="http://127.0.0.1:5500/Signup.html"><button type="button" class="btn btn-info">Book Now</button></a>
+              <a href=${urlRedirect}Signup.html><button type="button" class="btn btn-info">Book Now</button></a>
               </div>
          </div>`
                  
