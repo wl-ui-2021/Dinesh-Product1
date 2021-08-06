@@ -1,0 +1,22 @@
+[
+    {
+        "id" : 1,
+        "title":"BRONGE",
+        "price":"$45"
+        
+    },
+    {
+        
+        "id" : 2,
+        "title":"SILVER",
+        "price":"$85"
+        
+    },
+    {
+        
+        "id" : 3,
+        "title":"GOLD",
+        "price":"$125"
+       
+    } 
+]
