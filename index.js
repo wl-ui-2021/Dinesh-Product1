@@ -48,7 +48,7 @@ const pricing = document.querySelector('#p2')
 let output='';
 for(let x of data){
    output += `
-   <div class="col-4 p-3">
+   <div class="col-sm-12 col-lg-4 col-md-4 p-2" style="text-align:center; width:20rem; ">
    <div class="card" style="height:12rem">
      <div class="card-body"  style="background-color: #E5D549;">
          
@@ -86,9 +86,9 @@ xhr.onload = function(){
         console.log("data",Data)
         Data.forEach(function(Data) {
             out.innerHTML+= `
-            <div class="card m-4 p-2" style="width:20rem; text-align:center; background-color:#DBE6FD;">
-            <div class="card-body" >
-            <img src="${Data.img}" style="width:150px; height:150px; border-radius: 50%; ">
+            <div class="col-sm-12 col-lg-4 col-md-4 p-2" style="text-align:center; width:20rem; ">
+            <div class="card-body" style="background-color:#DBE6FD;">
+            <img src="${Data.img}" style="width:150px; height:150px; border-radius: 50%;  ">
              <h3 class="card-title p-3">${Data.name}</h3>
            <p>${Data.designation}</p>
            </div>
@@ -123,9 +123,9 @@ xhr.onload = function(){
         console.log("data",pData)
         pData.forEach(function(pData) {
             out1.innerHTML+= `
-            <div class="card m-4 " style="width:18rem; text-align:center">
-             <div class="card-body" >
-              <h1 class="card-title p-2">${pData.title}</h1>
+            <div class="col-sm-12 col-lg-4 col-md-4 p-2" style="text-align:center; width:20rem; ">
+             <div class="card-body" style="background-color:#DBFBE2;  border-radius: 1.5rem;" >
+              <h2 class="card-title p-2">${pData.title}</h2>
               <hr style="border: 1px solid black;"> 
               <h3>${pData.price}</h3>
               <p>per month</p>
