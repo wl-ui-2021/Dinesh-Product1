@@ -63,10 +63,10 @@ col.innerHTML = output;
 
 loadListeners();
 function loadListeners(){
-    // document.addEventListener('DOMContentLoaded' , getData)
+    
     getData();
     getPricingData();
-    // document.addEventListener('DOMContentLoaded', getPricingData)
+    
 }
 
 
@@ -130,7 +130,7 @@ xhr.onload = function(){
               <h3>${pData.price}</h3>
               <p>per month</p>
               <p>24/7 support</p>
-              <a href=${urlRedirect}Signup.html><button type="button" class="btn btn-info">Book Now</button></a>
+              <button class="btn btn-primary login" onclick="add()"> BOOK NOW </button>
               </div>
          </div>`
                  
@@ -146,3 +146,11 @@ xhr.onload = function(){
  
   }
  
+
+//   const login = document.getElementsByClassName('login')
+//   console.log(" message",login);
+  function add() {
+    const add = document.getElementById('form')
+    add.setAttribute('style','display: grid;')
+}
+

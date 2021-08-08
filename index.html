@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurants</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles.css">
-
 </head>
 <body>
+
     <!-- navbar Start -->
         <nav class="nanbar navbar-expand-lg navbar-dark p-4" style="display: grid; justify-content: end; background-color:cadetblue" >
             <button class="navbar-toggler " type= "button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation" style="justify-content: left;">
@@ -27,10 +26,10 @@
                     <a class="nav-link" href="#p1">PORTFOLIO</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#p2">PRICING</a>
+                    <a class="nav-link"  href="#p2">PRICING</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">G.DINESH</a>
+                    <a class="nav-link" style="color: yellowgreen;" href="https://github.com/wl-ui-2021/Dinesh-Product1/tree/gh-pages"><b>G.DINESH</b></a>
                   </li>
                 </ul>
               </div>
@@ -69,7 +68,8 @@
 
             <div class="container-fluid my-4 p-5" style="background-color: rgb(252, 242, 214);" id="s1">
               <div class="text-large p-5" style="text-align: center;">
-                <h1 style=""> <--OUR SERVICES--></h1>
+                <h1>DATA LOADING DYNAMICALLY</h1>
+                <h1> <--OUR SERVICES--></h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa</p>
                  <p> semper aliquam quis mattis quam.</p>
               </div>
@@ -94,18 +94,79 @@
               </div>
             </div>
             
-
             <!-- portfolio end -->
 
             <div class="container-fluid my-4 p-3"  style="background-color: #9289E6" >
               <div class="text-large p-5" style="text-align: center;">
-                <h1 style=""> <--Pricing--> </h1>
+                <h1> <--Pricing--> </h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa</p>
               </div>
-            <div class="container-fluid  " id="p2" style="display: grid; justify-items: center; z-index: 10;">
+              
+            <div class="container-fluid  " id="p2" style="display: grid; justify-items: center; ">
 
               <!-- <div class="row" id="pricing"> -->
-                
+                <div class="popup" id="form" style="display: none; justify-items: center; z-index: 10;" >
+                  <div class="popup-content p-4 " style="background-color:rgb(59, 72, 247);border-radius: 1.5rem;">
+                    <div class="form p-2 " style="display: grid; justify-content: center; align-items: center;" >
+                      <div class="row m-1">
+                        <div class="col"><label for="fName">First Name:</label></div>
+                        <div class="col"><input type="text" placeholder="first name"></div>
+                    </div>
+                    <div class="row m-1">
+                        <div class="col"><label for="lName">Last Name:</label></div>
+                        <div class="col"><input type="text" placeholder="last name"></div>
+                    </div>
+                    <div class="row m-1">
+                        <div class="col"><label for="email">Email:</label></div>
+                        <div class="col"><input type="email" placeholder="email"></div>
+                    </div>
+                    <div class="row m-1">
+                      <div class="col"><label for="Mobile">Mobile NO:</label></div>
+                      <div class="col"><input type="number" placeholder="Mobile NO"></div>
+                  </div>
+                  <div class="row m-1">
+                    <div class="col"><label for="Gender"></label>Gender:</div>
+                    <div class="col">
+                    <div class="col"><input
+                      class="form-check-input"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      id="male"
+                      value="option1"
+                    />
+                    <label class="form-check-label" for="male">Male</label></div>
+                      
+                    <div class="col"><input
+                      class="form-check-input"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      id="Female"
+                      value="option2"
+                    />
+                    <label class="form-check-label" for="male">Female</label></div>
+                    </div>
+                      
+                    <div class="col"><input
+                      class="form-check-input"
+                      type="radio"
+                      name="inlineRadioOptions"
+                      id="other"
+                      value="option3"
+                    />
+                    <label class="form-check-label" for="male">Other</label></div>
+                    </div>
+
+                    <div class="row m-1">
+                    <div class="col "><button class="btn btn-warning" onclick="alert()" >submit</button></div>
+                    <div class="col "><button class="btn btn-warning" onclick="remove()">close</button></div>
+                  </div>
+
+                </div>
+
+                     
+                  </div>
+                  </div>
+                </div>
                 <!-- content here from xsr request -->
               <!-- </div> -->
 
@@ -127,6 +188,17 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="./index.js"></script>
 </body>
+
+<script>
+      function remove(){
+        document.getElementById('form').setAttribute('style','display:none');
+      }
+
+      function alert(){
+        prompt("BOOKING CONFIRMED !!!!!!! You will get the booking details to regestred GMAIL ADRESS")
+        document.getElementById('form').setAttribute('style','display:none');
+      }
+</script>
 </html>
 
 
