@@ -146,11 +146,17 @@ xhr.onload = function(){
  
   }
  
-
-//   const login = document.getElementsByClassName('login')
-//   console.log(" message",login);
   function add() {
     const add = document.getElementById('form')
     add.setAttribute('style','display: grid;')
 }
 
+
+function remove(){
+    document.getElementById('form').setAttribute('style','display:none');
+  }
+
+  function alert(){
+    prompt("BOOKING CONFIRMED !!!!!!! You will get the booking details to regestred GMAIL ADRESS")
+    document.getElementById('form').setAttribute('style','display:none');
+  }
