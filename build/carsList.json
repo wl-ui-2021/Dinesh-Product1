@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "price": "50,000",
+    "year": 2011,
+    "KMs": 0,
+    "Model": " Maruti Alto LXI",
+    "Brand":"Maruthi",
+    "img": "https://i.ibb.co/NjTGDtG/maruti-alto-old.jpg",
+    "owner": "1st Owner",
+    "FuelType": "petrol"
+  },
+  {
+    "id": 2,
+    "price": "80,000",
+    "year": 2020,
+    "KMs": 0,
+    "Model": " Maruti S PRESSO VXI",
+    "Brand":"Maruthi",
+    "img": "https://i.ibb.co/wLV0CTJ/Maruti-Suzuki-S-Presso.jpg",
+    "owner": "1st Owner",
+    "FuelType": "petrol"
+  },
+  {
+    "id": 3,
+    "price": "60,000",
+    "year": 2008,
+    "KMs": 0,
+    "Model": " Maruti Alto LXI | MANUAL",
+    "Brand":"Maruthi",
+    "img": "https://i.ibb.co/Mc4VrMs/maruti-suzuki-alto-lxi-282011-29-500x500.png",
+    "owner": "1st Owner",
+    "FuelType": "petrol"
+  },
+  {
+    "id": 4,
+    "price": "1,00,000",
+    "year": 2013,
+    "KMs": 0,
+    "Model": " Maruti Alto K10 LXI MANUAL",
+    "Brand":"Maruthi",
+    "img": "https://i.ibb.co/dmT8Rrx/image.jpg",
+    "owner": "1st Owner",
+    "FuelType": "petrol"
+  },
+  {
+    "id": 5,
+    "price": "1,50,000",
+    "year": 2011,
+    "KMs": 0,
+    "Model": " Maruti Swift VXI MANUAL",
+    "Brand":"Maruthi",
+    "img": "https://i.ibb.co/ryjvT4c/images.jpg",
+    "owner": "1st Owner",
+    "FuelType": "petrol"
+  },
+  {
+    "id": 6,
+    "price": "70,000",
+    "year": 2010,
+    "KMs": 0,
+    "Model": " Maruti Ritz ZXI MANUAL",
+    "Brand":"Maruthi",
+    "img": "https://i.ibb.co/zbM86vV/20191224174611-c967.jpg",
+    "owner": "1st Owner",
+    "FuelType": "petrol"
+  },
+  {
+    "id": 7,
+    "price": "3,00,000",
+    "year": 2016,
+    "KMs": 0,
+    "Model": " Ford Figo Aspire",
+    "Brand":"Ford",
+    "img": "https://i.ibb.co/X5h936g/OLYMPUS-DIGITAL-CAMERA.jpg" ,
+    "owner": "2nd Owner",
+    "FuelType": "Disel"
+  },
+  {
+    "id": 8,
+    "price": "7,00,000",
+    "year": 2017,
+    "KMs": 0,
+    "Model": " Ford Ecosport",
+    "Brand":"Ford",
+    "img": "https://i.ibb.co/Gpzrp7W/2018-ford-ecosport-first-drive.jpg" ,
+    "owner": "1st Owner",
+    "FuelType": "Disel"
+  },
+  {
+    "id": 9,
+    "price": "8,00,000",
+    "year": 2016,
+    "KMs": 0,
+    "Model": " Ford Ecosport",
+    "Brand":"Ford",
+    "img": "https://i.ibb.co/5xn12tr/images.jpg" ,
+    "owner": "1st Owner",
+    "FuelType": "Disel"
+  },
+  {
+    "id": 10,
+    "price": "7,50,000",
+    "year": 2009,
+    "KMs": 0,
+    "Model": " Ford ",
+    "Brand":"Ford",
+    "img": "https://i.ibb.co/LYhCHjL/Ford-Endeavour-160320201504.jpg" ,
+    "owner": "1st Owner",
+    "FuelType": "Disel"
+  },
+  {
+    "id": 11,
+    "price": "10,00,000",
+    "year": 2020,
+    "KMs": 0,
+    "Model": " Mahindra Thar ",
+    "Brand":"Mahindra",
+    "img": "https://i.ibb.co/0yyG7Y0/platemaskingfrontleftside-1627028911.jpg" ,
+    "owner": "1st Owner",
+    "FuelType": "Petrol"
+  },
+  {
+    "id": 12,
+    "price": "11,00,000",
+    "year": 2019,
+    "KMs": 0,
+    "Model": " Mahindra Thar ",
+    "Brand":"Mahindra",
+    "img": "https://i.ibb.co/YDp2gPb/1629145851-cu-2.jpg" ,
+    "owner": "1st Owner",
+    "FuelType": "Petrol"
+  },
+  {
+    "id": 13,
+    "price": "3,00,000",
+    "year": 2014,
+    "KMs": 0,
+    "Model": " Mahindra Scorpio ",
+    "Brand":"Mahindra",
+    "img": "https://i.ibb.co/rtmQG45/cu-2.jpg" ,
+    "owner": "1st Owner",
+    "FuelType": "Petrol"
+  }
+]
+
